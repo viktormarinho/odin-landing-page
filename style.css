@@ -4,7 +4,9 @@
     padding: 0; margin: 0;  
     font-family: 'Roboto', sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 header{
     width: 100vw;
     height: 10vh;
@@ -73,12 +75,114 @@ header img{
     cursor: pointer;
     font-size: 18px;
     background-color: #3882F6;
+    transition-duration: 0.3s;
+}
+.herotext button:hover{
+    background-color: #2662c2;
 }
 .section2{
+    margin: 0; 
     background-color: #F9FAF8;
     height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 .sec2title{
-    color:#1F2937;
+    color: #1F2937;
     font-size: 36px;
+    font-weight: bolder;
+}
+.section2 ul{
+    list-style: none;
+    display: flex;
+    
+    gap: 40px;
+}
+.section2 ul li {
+    width: 160px;
+    height: 200px;
+    text-align: center;
+}
+.section2 ul li img{
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+
+.section3{
+    height: 70vh;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    max-width: 60vw;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.credits{
+    width: 40vw;
+    align-self: flex-end;
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 24px;
+}
+
+.section4{
+    height: 55vh;
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4content{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 75vw;
+    border-radius: 10px;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.sec4content h4{
+    font-size: 24px;
+}
+.sec4content p{
+    font-size: 18px;
+}
+
+.sec4content button{
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 6px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: transparent;
+    transition-duration: 0.3s;
+}
+
+.sec4content button:hover{
+    background-color: #2662c2;
+}
+
+footer{
+    height: 15vh;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
